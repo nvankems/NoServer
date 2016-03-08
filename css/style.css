@@ -1,0 +1,64 @@
+.about-img-LoL{
+
+     height: 400px;
+     background: url(../img/LoL.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+.about-img-DotA2{
+
+    height: 400px;
+    background: url(../img/dota-2-official.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-img-Smash {
+
+    height: 400px;
+    background: url(../img/SmashBros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up {
+
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    /*position: relative;*/
+    /*width: 400px;*/
+    /*height: 500px;*/
+    /*background-color: lightgray;*/
+    /*margin-top: 100px;*/
+    /*margin-left: 50px;*/
+    /*border-radius: 50px;*/
+    /*padding: 50px;*/
+    color: black;
+}
+
+input {
+    margin: 10px 0;
+    color: black;
+}
+
+.wrapper {
+    padding-top: 70px;
+}
+
+.signup-form {
+    padding-top: 130px;
+}
+
+.LoL-btn {
+    background: url(../img/League-of-Legends-simple.png)
+}
+
+/*.sign-up-btn {*/
+    /*position: absolute;*/
+    /*bottom: 100px;*/
+    /*left: 100px;*/
+    /*background-color: black;*/
+    /*color: #fff;*/
+/*}*/

@@ -1,0 +1,15 @@
+<h1>Click a person's username to see their profile!</h1>
+
+<div ng-repeat="profile in profiles">
+    <span ui-sref="profile({profileId:profile.$id})">Username: {{profile.username}}</span> <br/>
+    Real name: {{profile.firstName}} {{profile.lastName}} <br/>
+    E-mail: {{profile.email}} <br/>
+</div>
+
+
+
+<footer>
+    <div class="container text-center">
+        <p>Copyright © GamerLife 2016</p>
+    </div>
+</footer>
