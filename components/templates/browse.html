@@ -1,12 +1,19 @@
+<navbar></navbar>
+
+<div class="container">
+<br/>
+    <br/>
+    <br/>
+    <br/>
 <h1>Click a person's username to see their profile!</h1>
 
-<div ng-repeat="profile in profiles">
+<div ng-repeat="profile in profiles" id="profDisplay">
     <span ui-sref="profile({profileId:profile.$id})">Username: {{profile.username}}</span> <br/>
     Real name: {{profile.firstName}} {{profile.lastName}} <br/>
     E-mail: {{profile.email}} <br/>
 </div>
 
-
+</div>
 
 <footer>
     <div class="container text-center">

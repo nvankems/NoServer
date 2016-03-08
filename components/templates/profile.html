@@ -1,17 +1,23 @@
+
+<navbar></navbar>
+
 <div class='container'>
 
+
+    <br/><br/><br/><br/>
     <div class="row">
+        <div class="col-md-6"><h1 id="profileHeader">{{profile.firstName}} {{profile.lastName}} <br/> a.k.a. {{profile.username}}</h1></div>
+    </div>
 
-    <div class="col-md-6"><img src="{{profile.profile_img}}"></div>
-    <div class="col-md-6">{{profile.firstName}} {{profile.lastName}}</div>
-
+    <div class="row">
+        <div class="col-md-6"><img src="{{profile.profile_img}}"></div>
     </div>
 
     <div class="row">
         <div class="col-md-4">
             <form>
                 <input type="text" ng-model="sumName" placeholder="Enter summoner name">
-                <button class="LoL-btn" ng-click="fetchLoL()"></button>
+                <button class="LoL-btn" ng-click="fetchLoL()">Fetch</button>
             </form>
         </div>
     </div>

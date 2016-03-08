@@ -30,7 +30,7 @@ app.controller('signUpCtrl', function($scope, $firebaseArray, $firebaseObject, p
     });
 
 
-    $scope.createProfile = function(userInfo) {
+    $scope.createProfile = function(userInfo, username) {
 
         //ref.resetPassword({
         //    email : userInfo.facebook.email
@@ -46,8 +46,8 @@ app.controller('signUpCtrl', function($scope, $firebaseArray, $firebaseObject, p
             firstName: userInfo.facebook.cachedUserProfile.first_name,
             lastName: userInfo.facebook.cachedUserProfile.last_name,
             email: userInfo.facebook.email,
-            profile_img: userInfo.facebook.profileImageURL
-
+            profile_img: userInfo.facebook.profileImageURL,
+            username: username
         })
 
 

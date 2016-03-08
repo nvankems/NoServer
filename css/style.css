@@ -52,7 +52,17 @@ input {
 }
 
 .LoL-btn {
-    background: url(../img/League-of-Legends-simple.png)
+    background: url(../img/League-of-Legends-simple.png);
+    background-size: contain;
+}
+
+#profileHeader {
+    text-align: center;
+}
+
+#profDisplay {
+    margin: 15px 0;
+    background-color: #222222;
 }
 
 /*.sign-up-btn {*/
@@ -61,4 +71,8 @@ input {
     /*left: 100px;*/
     /*background-color: black;*/
     /*color: #fff;*/
+/*}*/
+
+/*.container {*/
+    /*margin-top: 10em;*/
 /*}*/

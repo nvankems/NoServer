@@ -1,11 +1,15 @@
-
+<navbar></navbar>
 
 <div class="wrapper">
 
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <button ng-click="createProfile(facebookShit)" ui-sref="changePW">Create an account with your Facebook profile!</button>
+                <form>
+                    <input type="text" ng-model="username" placeholder="Enter username">
+                    <input type="text" ng-model="password" placeholder="Enter password">
+                    <button ng-click="createProfile(facebookShit, username); createFBprof(password)" ui-sref="changePW">Fill the rest with your Facebook profile!</button>
+                </form>
             </div>
 
             <div class="col-md-6">
